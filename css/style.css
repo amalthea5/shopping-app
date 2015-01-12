@@ -21,9 +21,31 @@ header h1, h2 {
 	height: 2.5rem;
 }
 
+.shopping-list {
+	margin: 0 auto;
+	width: 20rem;
+	background-color: #197b30;
+	border: 2px solid #197b30;
+	border-radius: 10px;
+}
+
+.list {
+	list-style-type: none;
+	text-align: center;
+}
+
+.list li {
+	font-size: 1.3rem;
+	font-family: "Titillium Web", sans-serif, helvetica;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: : #fff;
+}
+
 #buttons {
 	margin: 0 auto;
 	text-align: center;
+	padding-top: 2em;
 }
 
 .reset {
