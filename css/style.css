@@ -1,5 +1,5 @@
 header {
-	background-color: #197b30;
+	background-color: #0f9d58;
 	height: 7rem;
 }
 
@@ -19,19 +19,22 @@ header h1, h2 {
 	border-radius: 10px;
 	width: 20rem;
 	height: 2.5rem;
+  font-size: 1rem;
 }
 
 .shopping-list {
 	margin: 0 auto;
 	width: 20rem;
-	background-color: #197b30;
-	border: 2px solid #197b30;
+	background-color: #fff;
+	border: 2px solid #000;
 	border-radius: 10px;
 }
 
 .list {
 	list-style-type: none;
 	text-align: center;
+   margin: 0;
+   padding: 10px 40px;
 }
 
 .list li {
@@ -39,7 +42,37 @@ header h1, h2 {
 	font-family: "Titillium Web", sans-serif, helvetica;
 	border: 2px solid black;
 	border-radius: 10px;
-	background-color: : #fff;
+	width: 15rem;
+}
+
+/* Items not yet acquired */
+.active  {
+	font-size: 1.3rem;
+	font-family: "Titillium Web", sans-serif, helvetica;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 15rem;
+	background-color: #FFBF00;
+}
+
+/* Items already acquired */
+.check {
+	font-size: 1.3rem;
+	font-family: "Titillium Web", sans-serif, helvetica;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 15rem;
+	background-color: #49ff45;
+}
+
+/* Items being removed from the list */
+.cancelled {
+	font-size: 1.3rem;
+	font-family: "Titillium Web", sans-serif, helvetica;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 15rem;
+	background-color: #B0B3B6;
 }
 
 #buttons {
@@ -48,26 +81,18 @@ header h1, h2 {
 	padding-top: 2em;
 }
 
-.reset {
-	background-color: #C2C2D6;
+.reset, .undo {
+	background-color: #0f9d58;
+  color: #fff;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	border-radius: 10px;
 	width: 10rem;
 	height: 2.5rem;
 	display: inline-block;
-	color: #39b54a;
-	font-size: 1.3rem;
+	font-size: 0.9em;
 	font-weight: bold;
 	font-family: "Titillium Web", sans-serif, helvetica;
 }
 
-.undo {
-	background-color: #C2C2D6;
-	border-radius: 10px;
-	width: 10rem;
-	height: 2.5rem;
-	display: inline-block;
-	color: #39b54a;
-	font-size: 1.3rem;
-	font-weight: bold;
-	ont-family: "Titillium Web", sans-serif, helvetica;
-}
