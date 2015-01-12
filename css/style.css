@@ -1,0 +1,51 @@
+header {
+	background-color: #197b30;
+	height: 7rem;
+}
+
+header h1, h2 {
+	color: #fff;
+	text-align: center;
+	font-family: Righteous, sans-serif, helvetica;
+}
+
+.add-item {
+	margin: 0 auto;
+	text-align: center;
+	padding: 2rem;
+}
+
+#item {
+	border-radius: 10px;
+	width: 20rem;
+	height: 2.5rem;
+}
+
+#buttons {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.reset {
+	background-color: #C2C2D6;
+	border-radius: 10px;
+	width: 10rem;
+	height: 2.5rem;
+	display: inline-block;
+	color: #39b54a;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: "Titillium Web", sans-serif, helvetica;
+}
+
+.undo {
+	background-color: #C2C2D6;
+	border-radius: 10px;
+	width: 10rem;
+	height: 2.5rem;
+	display: inline-block;
+	color: #39b54a;
+	font-size: 1.3rem;
+	font-weight: bold;
+	ont-family: "Titillium Web", sans-serif, helvetica;
+}
