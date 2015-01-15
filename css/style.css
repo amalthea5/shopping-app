@@ -43,6 +43,7 @@ header h1, h2 {
 	border: 2px solid black;
 	border-radius: 10px;
 	width: 15rem;
+	color: #fff;
 }
 
 /* Items not yet acquired */
