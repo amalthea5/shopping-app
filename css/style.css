@@ -52,21 +52,11 @@ header h1, h2 {
 	border: 2px solid black;
 	border-radius: 10px;
 	width: 15rem;
-	background-color: #FFBF00;
+	background-color: #0f9d58;
 }
 
 /* Items already acquired */
 .check {
-	font-size: 1.3rem;
-	font-family: "Titillium Web", sans-serif, helvetica;
-	border: 2px solid black;
-	border-radius: 10px;
-	width: 15rem;
-	background-color: #49ff45;
-}
-
-/* Items being removed from the list */
-.cancelled {
 	font-size: 1.3rem;
 	font-family: "Titillium Web", sans-serif, helvetica;
 	border: 2px solid black;
