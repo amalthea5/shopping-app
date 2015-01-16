@@ -49,7 +49,7 @@ header h1, h2 {
 .list li {
 	font-size: 1.3rem;
 	font-family: "Titillium Web", sans-serif, helvetica;
-	border: 2px solid black;
+	border: 1px solid white;
 	border-radius: 10px;
 	width: 15rem;
 	color: #fff;
@@ -79,6 +79,14 @@ header h1, h2 {
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 2em;
+}
+
+.xbutton {
+	font-size: 0.75rem;
+	background-color: red;
+	color: #fff;
+	border: 1px solid black;
+	float: right;
 }
 
 .reset, .undo {
