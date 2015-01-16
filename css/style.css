@@ -69,6 +69,7 @@ header h1, h2 {
 .check {
 	font-size: 1.3rem;
 	font-family: "Titillium Web", sans-serif, helvetica;
+	text-decoration: line-through;
 	border: 2px solid black;
 	border-radius: 10px;
 	width: 15rem;

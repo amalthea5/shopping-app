@@ -9,22 +9,24 @@ $(document).ready(function() {
 //add li to shopping list
 $('#add').click(function() {
 	event.preventDefault();
-		$('.list').append('<li class="active"><button class="xbutton">X</button>' + 
-		$('input#item').val() + '</li>');
+		$('.list').append('<li class="active"><button class="xbutton">X</button><span class="text">' + 
+		$('input#item').val() + '</span></li>');
 		$('input#item').val("");
 });
 
 //remove li by clicking on them
-$('ul').on('click', '.check', function() {
+$('li').on('click', function() {
 	$(this).remove();
 });
-$('ul').on('click', '.active', function() {
+$('li').on('click', function() {
 	$(this).remove();
 });
 
 //toggle class from active to check
-$('.xbutton').on('click', function() {
-	$('.active').toggleClass('check');
+$('.list').on('click', '.xbutton', function() {
+	event.stopPropagation();
+  $(this).closest ('li').toggleClass('check');
+  
 });
 	
 });
