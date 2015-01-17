@@ -9,6 +9,14 @@ header h1, h2 {
 	font-family: Righteous, sans-serif, helvetica;
 }
 
+.instructions {
+	margin: 0 auto;
+	text-align: center;
+	color: #0f9d58;
+	font-family: "Titillium Web", sans-serif, helvetica;
+	width: 40%;
+}
+
 .add-item {
 	margin: 0 auto;
 	text-align: center;
@@ -35,7 +43,7 @@ header h1, h2 {
 	margin: 0 auto;
 	width: 20rem;
 	background-color: #fff;
-	border: 2px solid #000;
+	border: 1px solid #fff;
 	border-radius: 10px;
 }
 
@@ -90,7 +98,7 @@ header h1, h2 {
 	float: right;
 }
 
-.reset, .undo {
+.reset {
 	background-color: #0f9d58;
   color: #fff;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);

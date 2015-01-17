@@ -15,18 +15,21 @@ $('#add').click(function() {
 });
 
 //remove li by clicking on them
-$('li').on('click', function() {
+$('.shopping-list').on('click', 'li', function() {
 	$(this).remove();
 });
-$('li').on('click', function() {
-	$(this).remove();
-});
+
 
 //toggle class from active to check
 $('.list').on('click', '.xbutton', function() {
 	event.stopPropagation();
   $(this).closest ('li').toggleClass('check');
   
+});
+
+//reset button
+$('.reset').on('click', function() {
+	$('.list').empty();
 });
 	
 });
